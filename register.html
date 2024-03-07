@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+
+    <style>
+      .center {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <div>
+        <h1>Register</h1>
+        <form action="home.html">
+          <label for="Full name">Username</label>
+          <input id="Full name" type="text" required />
+          <br />
+
+          <label for="email ">Email</label>
+          <input id="email" type="text" required /> <br />
+
+          <label for="pass">Password</label>
+          <input id="pass" type="text" required /> <br />
+
+          <label for="uni"></label>
+
+          <select name="uni" id="uni" required>
+            <option value="" disabled selected>University</option>
+            <option value="adnsu">Adnsu</option>
+            <option value="bdu">BDU</option>
+            <option value="unec">Unec</option>
+            <option value="azmiu">Azmiu</option>
+          </select>
+
+          <select name="seher" id="seher" required>
+            <option value="" disabled selected>None</option>
+            <option value="baku">Baki</option>
+            <option value="sum">Sumqayit</option>
+            <option value="mas">Masalli</option>
+            <option value="lenk">Lenkeran</option>
+          </select>
+          <br />
+
+          <label for="file"></label>
+          <input id="file" type="file" value="Choose file" required /> <br />
+
+          <label>Gender</label>
+
+          <input type="radio" id="gender" name="fav_language" value="gen" />
+          <label for="genders">Man</label>
+
+          <input type="radio" id="gend" name="fav_language" value="g" />
+          <label for="gend">Woman</label><br />
+
+          <button type="submit">Add User</button>
+        </form>
+      </div>
+
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD2-bAtCKy88JMYpmoKxildON0Wxo9w2H1Yzx82YeSfdPodWH6Hdr0vKY7dhVlA2YArck&usqp=CAU"
+        style="width: 30%"
+      />
+    </div>
+  </body>
+</html>
