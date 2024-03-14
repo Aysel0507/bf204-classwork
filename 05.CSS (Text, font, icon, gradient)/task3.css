@@ -1,0 +1,87 @@
+.sect1{
+    background-color: rgb(66, 66, 250);
+    width: 550px;
+    height: 300px;
+    border:1px solid;
+    margin:0 auto;
+    padding-bottom:100px;
+    border-top-left-radius:5%;
+    border-top-right-radius:5%;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+img{
+    width: 120px;
+    height: 120px;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    margin-top: 100px;
+    box-shadow: rgba(red, green, blue, alpha)0 22px 70px 4px;
+}
+
+.sect2{
+    border:1px solid black;
+    border-bottom-left-radius:5%;
+    border-bottom-right-radius:5%;
+    width: 550px;
+    height: 450px;
+    margin:0 auto;
+}
+
+h1{
+    font-family:"Almarai";
+    text-align:center;
+    text-transform: capitalize;
+
+}
+
+p{
+    font-family:"Almarai";
+    text-align: center;
+
+}
+
+p a{
+    text-decoration: none;
+
+}
+.btn{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    background-color: skyblue;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: linear gradient(to right,white 0%,gray 51%, yellow 100%);
+
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:40px;
+    /* padding:0 30px; */
+}
+
+i{
+    height: 1rem;
+    font-size: 2em;
+    letter-spacing: 15px;
+    height: 1.5rem;
+    font-size: 1.5em;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-family:"Almarai";
+}
